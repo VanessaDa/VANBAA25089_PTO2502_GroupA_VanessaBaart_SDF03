@@ -221,7 +221,6 @@ img {
       margin: 0.5rem 0;
     }
   }
-
   
   /* Styles for screens smaller than 480px */
   @media (max-width: 480px) {

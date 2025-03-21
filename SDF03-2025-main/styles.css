@@ -18,6 +18,27 @@ body {
     padding-bottom: 3rem;
 }
 
+/* Ensure images are responsive */
 img {
     display: block;
+    max-width: 100%;
 }
+
+/* Profile Header */
+/* Style the profile container */
+.profile {
+    display: flex;
+  
+    align-items: center;
+  
+    flex-wrap: wrap;
+  
+    padding: 2rem 0;
+  
+    border-bottom: 1px solid #dbdbdb;
+  
+    margin: 0 auto;
+  
+    width: 50%;
+  }
+  

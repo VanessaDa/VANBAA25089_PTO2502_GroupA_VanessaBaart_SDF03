@@ -24,6 +24,14 @@ img {
     max-width: 100%;
 }
 
+/* A flexible container for stacking content vertically with spacing */
+.profile.section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  
 /* Profile Header */
 /* Style the profile container */
 .profile {
@@ -249,7 +257,7 @@ img {
   /* Gallery layout for medium screens */
   @media (max-width: 1024px) and (min-width: 768px) {
     .gallery {
-        
+
       grid-template-columns: repeat(3, 1fr);
     } 
   }

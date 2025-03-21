@@ -188,4 +188,78 @@ img {
     }
   }
   
+ /* Responsive Design */
+@media (max-width: 768px) {
+    .profile {
+      text-align: center;  
+    }
+    .profile-image,
+    .profile-user-settings,
+    .profile-stats,
+    .profile-bio {
+      flex: 1 1 100%;/* Make each section take full width */
+    }
+  
+    .profile-user-settings {
+      justify-content: center;
+      flex-wrap: wrap;
+     }
+  
+    .profile-stats ul {
+      justify-content: center;
+    }
+  
+    .btn {
+      margin: 0.5rem 0;
+    }
+  }
+
+  
+  /* Styles for screens smaller than 480px */
+  @media (max-width: 480px) {
+    .profile {
+      width: 100%;
+      text-align: center; 
+      flex-direction: column; 
+  
+    }  
+    }  
+  
+    .gallery {
+      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+      width: 100%;
+    }
+  
+  /* Gallery layout for full desktop view*/
+  @media (min-width: 1200px) { 
+    .gallery {
+      grid-template-columns: repeat(3, 1fr); 
+      width: 50%;
+    }
+  }
+  
+  
+  /* Gallery layout for tablets */
+  @media (max-width: 768px) and (min-width: 481px) {
+    .gallery {
+      grid-template-columns: repeat(2, 1fr); /* Exactly 2 columns */
+    }   
+  }
+  
+  /* Gallery layout for medium screens */
+  @media (max-width: 1024px) and (min-width: 768px) {
+    .gallery {
+        
+      grid-template-columns: repeat(3, 1fr);
+    } 
+  }
+  
+  /* Gallery layout for smaller tablets */
+  @media (max-width: 720px) and (min-width: 540px) {
+    .gallery {
+      grid-template-columns: repeat(3, 1fr); 
+    }
+  }
+  
+    
      

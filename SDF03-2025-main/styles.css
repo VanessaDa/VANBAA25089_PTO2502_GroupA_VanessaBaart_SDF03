@@ -109,6 +109,10 @@ img {
     margin: 0;
   }
 
+  .profile-stats li{
+    font-size: 1.6rem;
+    margin-right: 2rem;
+
   }
   .profile-stat-count {
     font-weight: 600;
